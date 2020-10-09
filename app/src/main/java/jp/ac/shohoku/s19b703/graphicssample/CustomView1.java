@@ -40,7 +40,7 @@ public class CustomView1 extends View {
         for(int i = 1; i<=10; i++){
             Paint p2 = new Paint();
             p2.setStyle(Style.FILL); //Style を設定： 塗りつぶす
-            p2.setColor(Color.rgb(25*i, 0, 20*i)); //色を設定
+            p2.setColor(Color.rgb(255-5*i, 255-25*i, 255-8*i)); //色を設定
             canvas.drawCircle(25*i+125, 25*i+125, 100,p2); //円を描く
         }
     }
